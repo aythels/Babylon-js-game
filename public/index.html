@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Page Title</title>
+      <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+      <p><b>Nickname</b></p>
+      <input type="text" name="nick" id="nick" placeholder="nick" autocomplete="off" minlength="3" maxlength="10"><br>
+      <button onclick="log(document.getElementById('nick').value)">Submit</button>
+      <script>
+        function redirect(url) {
+          console.log(url);
+          location.replace(document.URL + url);
+        }
+
+        function log(value) {
+          var socket = io();
+          socket.emit('nick', value);
+
+          socket.on('direct', (url) => redirect(url));
+        }
+      </script>
+    </body>
+</html>
+
+<!-- using cookies
+using post and get -->
+<!-- //push state, change url with redirecting -->

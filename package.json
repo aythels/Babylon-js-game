@@ -1,0 +1,22 @@
+{
+  "name": "serverclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babylonjs": "^4.0.3",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nanotimer": "^0.3.15",
+    "nodemon": "^1.19.1",
+    "oimo": "^1.0.9",
+    "short-uuid": "^3.1.1",
+    "socket.io": "^2.2.0",
+    "ws": "^7.1.1"
+  }
+}
