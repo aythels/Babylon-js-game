@@ -1,6 +1,6 @@
 # Babylon.js Game
 
-3D first-person server-client based web game using web sockets.
+An experiment in creating a 3D first-person server-client based browser game using Babylon.js and web sockets.
 
 ## Getting Started
 
