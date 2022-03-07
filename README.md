@@ -8,7 +8,7 @@ An experiment in creating a 3D first-person server-client based browser game usi
 
 * ```npm install``` 
 
-#### Executing program
+#### Execution
 
 * ``` npm start ```
 * Open http://localhost:3000
