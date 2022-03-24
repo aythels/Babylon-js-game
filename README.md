@@ -1,6 +1,9 @@
 # Babylon.js Game
 
-An experiment in creating a 3D first-person server-client based browser game using Babylon.js and web sockets.
+An experiment in creating a browser-based real-time 3D FPS multiplayer game using a Deterministic Lockstep system with node.js and WebSockets.
+
+The frontend is built using the Babylon.js rendering engine and Oimo.js collision engine.
+
 
 ## Getting Started
 
