@@ -2,7 +2,7 @@
 
 An experiment in creating a browser-based real-time 3D FPS multiplayer game using a Deterministic Lockstep system with node.js and WebSockets.
 
-The frontend is built using the Babylon.js rendering engine and Oimo.js collision engine.
+The frontend is built from scratch ontop of the Babylon.js rendering engine and Oimo.js collision engine.
 
 
 ## Getting Started
